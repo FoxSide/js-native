@@ -58,7 +58,7 @@ function filter(array, fn) {
 
 console.log(filter(students, st => st.age >= 21))
 
-// поиск вхождения "Боб"
+// поиск вхождения "Боб".
 
 function find(array, fn) {
   for (let i = 0; i < array.length; i++) {
